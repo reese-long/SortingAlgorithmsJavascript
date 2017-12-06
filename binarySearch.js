@@ -3,7 +3,7 @@ var numOperations = 0;
 var low = 0;
 var high = arr.length-1;
 while(true){
-
+//Added a test comment
 var mid = Math.floor((low+high)/2);
 
 if(arr[mid] == searchVal)
